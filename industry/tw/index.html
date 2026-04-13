@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>台灣隊 - 世界第一</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/timeline.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1><a href="../../index.php">Team Taiwan</a></h1>
+            <nav>
+                <a href="../tw/index.html" class="active">繁體中文</a> | 
+                <a href="../en/index.html">English</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="timeline-sidebar">
+            <div class="timeline-date-label" id="date-label">向下滾動</div>
+            <div style="margin-top: 50px;">
+                <a href="../../index.php">← 返回首頁</a>
+            </div>
+        </div>
+        <div class="timeline-track" id="timeline-track">
+            <!-- Items injected by JS -->
+        </div>
+    </div>
+
+    <!-- Event Modal -->
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modal-body" class="modal-body">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="../../assets/js/timeline.js"></script>
+</body>
+</html>

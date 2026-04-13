@@ -1,0 +1,22 @@
+[
+  { "date": "1895-01-01", "title": "Camphor Kingdom" },
+  { "date": "1980-01-01", "title": "Umbrella Kingdom" },
+  { "date": "1987-02-21", "title": "Semiconductor Leadership" },
+  { "date": "1995-01-01", "title": "Scanner Kingdom" },
+  { "date": "1998-01-01", "title": "LCD Monitor Leadership" },
+  { "date": "1999-01-01", "title": "Laptop ODM Dominance" },
+  { "date": "2000-01-01", "title": "Motherboard Leadership" },
+  { "date": "2001-01-01", "title": "Mouse Output #1" },
+  { "date": "2002-01-01", "title": "Keyboard Output #1" },
+  { "date": "2003-01-01", "title": "Network Equipment ODM" },
+  { "date": "2005-01-01", "title": "PC EMS/ODM Services" },
+  { "date": "2006-01-01", "title": "Bicycle Components" },
+  { "date": "2010-01-01", "title": "IC Packaging & High-end Bicycles" },
+  { "date": "2015-01-01", "title": "High-end Servers" },
+  { "date": "2018-01-01", "title": "eBike Supply Chain" },
+  { "date": "2020-01-01", "title": "5nm Process Leadership" },
+  { "date": "2022-01-01", "title": "3nm Process Leadership" },
+  { "date": "2023-01-01", "title": "Global Foundry Share" },
+  { "date": "2024-01-01", "title": "Semiconductor Equipment Parts" },
+  { "date": "2025-01-01", "title": "AI Server & Hardware Supply Chain" }
+]
