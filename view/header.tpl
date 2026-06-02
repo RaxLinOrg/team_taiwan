@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-59R5WF0F2X"></script>
+    {literal}
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -17,6 +18,7 @@
 
       gtag('config', 'G-59R5WF0F2X');
     </script>
+    {/literal}
 </head>
 <body>
     <header>
