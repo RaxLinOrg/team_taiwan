@@ -18,5 +18,7 @@ jobs:
             --exclude='.git/' \
             --exclude='Libs/smarty-*/tests/' \
             --exclude='Libs/smarty-*/run-tests*.sh' \
+            --exclude='view_c/' \
+            --exclude='cache/' \
             ./ pi@192.168.1.112:/var/www/html/team_taiwan/
           echo "Deploy complete: $(date)"
