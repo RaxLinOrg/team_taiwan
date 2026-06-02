@@ -1,0 +1,22 @@
+name: Deploy to www
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, pi2, team_taiwan]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy to www
+        run: |
+          rsync -avz --delete \
+            --exclude='.git/' \
+            --exclude='Libs/smarty-*/tests/' \
+            --exclude='Libs/smarty-*/run-tests*.sh' \
+            ./ pi@192.168.1.112:/var/www/html/team_taiwan/
+          echo "Deploy complete: $(date)"
